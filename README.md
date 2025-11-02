@@ -1,12 +1,12 @@
-# AI Agent - No-Code Browser Automation Platform
+# AI Browser - Prompt based Browser Automation Platform
 
-A powerful, no-code platform that allows you to build and deploy AI agents for web browser automation using natural language prompts. Create intelligent agents that can interact with any website without writing a single line of code.
+A powerful, prompt based platform that allows anyone to build and deploy AI browser agents for web automation. Create intelligent agents that can interact with any website without writing a single line of code.
 
 ## ✨ Features
 
-- 🤖 **Prompt-Based Creation** - Build AI agents using simple natural language instructions
+- 🤖 **Prompt-Based Creation** - Build AI browser agents using simple natural language instructions
 - 👀 **Live View Agent** - Watch your agents work in real-time with live browser preview
-- ⏰ **Smart Scheduling** - Set your agents to run automatically at specified times
+- ⏰ **Smart Scheduling** - Set your browser agents to run automatically at specified times
 - 🌐 **Community Hub** - Access pre-built agents for popular websites and services
 - 🎯 **Drag & Drop Interface** - No coding required - build complex workflows visually
 - 🔧 **Playwright Powered** - Built on robust browser automation technology
@@ -73,7 +73,7 @@ Set your agent to run daily, weekly, or at custom intervals to automate repetiti
 - "Extract the product price from the main product page"
 
 **Avoid Vague Instructions:**
-- "Do something interesting on the page"
+- "Do something interesting on the page" (too broad instruction)
 - "Fill out the form and submit it" (combine multiple actions)
 
 ### 2. Use Variables for Sensitive Data
@@ -233,19 +233,17 @@ Join our growing community of automation enthusiasts:
 
 ## 📄 Pricing
 
-- **Free Tier:** 100 agent runs per month
-- **Pro Plan:** Unlimited runs, advanced scheduling, priority support
+- **Free Tier:** 10 browser hours per month
+- **Pro Plan:** Upto 1,000 browser hours per month, advanced scheduling, priority support
 - **Enterprise:** Custom solutions, dedicated support, on-premise deployment
 
 ## 🆘 Getting Help
 
-- **Support Ticket:** [Direct help from our team](mailto:hello@aiagent.surf)
+- **Support Ticket:** [Direct help from our team](mailto:hello@aibrowser.surf)
 
 ---
 
 **Made with 🤖 for everyone who wants to automate the web**
 
-[🌐 Try AI Agent](https://aiagent.surf)
+[🌐 Try AI Browser](https://aibrowser.surf)
 ```
-
-This README maintains the same friendly, comprehensive style as the original LiteDB documentation while focusing on your AI Agent platform. It includes all the features you mentioned (live view, prompt-based creation, scheduling, community) and provides practical examples and best practices adapted for the no-code drag-and-drop interface.
