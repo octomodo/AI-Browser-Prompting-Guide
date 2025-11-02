@@ -98,8 +98,8 @@ Begin with basic single-page interactions:
 ### 4. Use Community Agents
 
 Browse our community library for pre-built agents:
-- **Wellfound Auto Apply to Bobs**
-- **Indeed Auto Apply to Jobs**
+- **Wellfound Job Hunt Agent**
+- **Indeed AutoApply to Jobs**
 - **Amazon Price Tracker**
 - **LinkedIn Auto-Poster**
 - **Google Maps Business Scraper**
