@@ -1,6 +1,6 @@
 # Prompting Guide for AI Browser
 
-AI Browser is a powerful platform that allows anyone to build and deploy AI browser agents for web automation by writing simple prompts. Anyone with prompting experience can create AI browser agents that can automate any website without writing a single line of code.
+AI Browser is a tool that allows anyone to build and deploy AI browser agents for web automation by writing simple prompts. Anyone with prompting experience can create AI browser agents that can automate any website without writing a single line of code.
 
 ## ✨ Features of AI Browser
 
@@ -64,7 +64,7 @@ Set your agent to run daily, weekly, or at custom intervals to automate repetiti
 - **Export:** Google Sheets integration
 - **Schedule:** Daily at 6 AM
 
-## 🎯 Building Agents - Best Practices
+## 🎯 Building Browser Agents - Best Practices
 
 ### 1. Be Specific and Atomic
 
@@ -183,20 +183,10 @@ For pages with changing layouts:
 
 ## 🚨 Important Notes
 
-- **Rate Limiting:** Respect website terms of service and implement delays
+- **Rate Limiting:** Respect website terms of service
 - **Data Privacy:** Keep sensitive information secure using variables
-- **Browser Compatibility:** Agents work across Chrome, Firefox, and Safari
-- **Monitoring:** Check agent performance regularly for optimal results
-- **Updates:** Agents may need adjustments when websites change layouts
-
-## 🤝 Community & Support
-
-Join our growing community of automation enthusiasts:
-
-- **Discord Server:** Get help and share ideas
-- **Agent Library:** Download and share automation workflows
-- **Tutorial Hub:** Learn advanced techniques and best practices
-- **Feature Requests:** Suggest new platform capabilities
+- **Monitoring:** Check agent's performance regularly for optimal results
+- **Updates:** Browser agents may need adjustments when websites change layouts
 
 ## 📄 Pricing
 
@@ -212,5 +202,5 @@ Join our growing community of automation enthusiasts:
 
 **Made with 🤖 for everyone who wants to automate the web**
 
-[🌐 Try AI Browser](https://aibrowser.surf)
+[🌐 Visit AI Browser](https://aibrowser.surf)
 ```
