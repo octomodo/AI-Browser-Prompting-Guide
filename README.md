@@ -117,7 +117,7 @@ Our visual interface translates your prompts into actionable steps:
 3. **Conditions** - Set up if/then logic for smart decision making
 4. **Scheduling** - Configure when and how often to run
 
-### Action Types
+### Action Types (Depricated)
 
 - **GOTO:** Go to specific URLs or pages
 - **ACT:** Interact with buttons, links and enter text into input fields
