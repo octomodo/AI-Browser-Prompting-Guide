@@ -41,7 +41,7 @@ Set your agent to run daily, weekly, or at custom intervals to automate repetiti
 - **Condition:** If price < $800
 - **Notify:** Send email alert
 
-### Social Media Management
+### Social Media Scheduling
 
 **Prompt:** "Post my blog articles to LinkedIn every Tuesday at 2 PM, including the title, summary, and link"
 
