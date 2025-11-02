@@ -200,6 +200,4 @@ For pages with changing layouts:
 
 ---
 
-**Made with 🤖 for everyone who wants to automate the web**
-
-[Visit AI Browser](https://aibrowser.surf)
+**Made with 💌 for everyone who wants to automate the web**
