@@ -1,6 +1,6 @@
 # Prompting Guide for AI Browser
 
-AI Browser is a powerful platform that allows anyone to build and deploy AI browser agents for web automation using just prompts. Anyone with prompting experience can create AI browser agents that can automate any website without writing a single line of code.
+AI Browser is a powerful platform that allows anyone to build and deploy AI browser agents for web automation by writing simple prompts. Anyone with prompting experience can create AI browser agents that can automate any website without writing a single line of code.
 
 ## ✨ Features
 
