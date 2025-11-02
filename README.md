@@ -32,10 +32,10 @@ Set your agent to run daily, weekly, or at custom intervals to automate repetiti
 
 ### E-commerce Price Monitoring
 
-**Prompt:** "Check the price of iPhone 15 on Best Buy every morning at 9 AM and send me an email if the price drops below $800"
+**Prompt:** "Check the price of iPhone 15 on BestBuy every morning at 9 AM and send me an email if the price drops below $800"
 
 **Agent Configuration:**
-- **Action:** Navigate to Best Buy
+- **Action:** Navigate to BestBuy
 - **Search:** "iPhone 15"
 - **Extract:** Price information
 - **Condition:** If price < $800
@@ -46,17 +46,19 @@ Set your agent to run daily, weekly, or at custom intervals to automate repetiti
 **Prompt:** "Post my blog articles to LinkedIn every Tuesday at 2 PM, including the title, summary, and link"
 
 **Agent Configuration:**
-- **Source:** RSS feed from blog
+- **Action:** Navigate to user's blog
+- **Action:** Click latest blog post
+- **Extract:** Blog data
 - **Schedule:** Weekly (Tuesdays, 2 PM)
 - **Action:** Create LinkedIn post
-- **Content:** Auto-generate from article data
+- **Content:** Auto-generate from blog data
 
 ### Data Collection
 
 **Prompt:** "Collect job listings for 'Software Engineer' positions from Indeed daily and save them to Google Sheets"
 
 **Agent Configuration:**
-- **Target:** Indeed.com
+- **Action:** Navigate to Indeed.com
 - **Search:** "Software Engineer"
 - **Extract:** Job title, company, location, salary
 - **Export:** Google Sheets integration
@@ -83,19 +85,9 @@ Instead of hardcoding sensitive information in your prompts, use variables:
 **Variables Section:** 
 - email: "john.doe@example.com"
 
-This keeps your personal information secure and makes agents reusable.
+This keeps your personal information secure.
 
-### 3. Preview Before Running
-
-Use the **Preview Mode** to see what actions your agent will take before running it live:
-
-1. Create your agent with prompts
-2. Click "Preview Actions"
-3. Review the planned steps
-4. Adjust prompts if needed
-5. Run with confidence
-
-### 4. Start Simple, Then Expand
+### 3. Start Simple, Then Expand
 
 Begin with basic single-page interactions:
 
@@ -103,9 +95,11 @@ Begin with basic single-page interactions:
 **Intermediate:** "Search for products and filter by price range"
 **Advanced:** "Compare prices across multiple e-commerce sites"
 
-### 5. Use Community Agents
+### 4. Use Community Agents
 
 Browse our community library for pre-built agents:
+- **Wellfound Auto Apply to Bobs**
+- **Indeed Auto Apply to Jobs**
 - **Amazon Price Tracker**
 - **LinkedIn Auto-Poster**
 - **Google Maps Business Scraper**
@@ -114,24 +108,22 @@ Browse our community library for pre-built agents:
 
 ## 🔧 Platform Interface
 
-### Drag & Drop Builder
+### Prompt Based Builder
 
 Our visual interface translates your prompts into actionable steps:
 
-1. **ACT Dropdown** - Select the type of action (Click, Type, Extract, Navigate)
-2. **Action Field** - Describe what you want to do in natural language
-3. **Variables Panel** - Define reusable values and sensitive data
-4. **Conditions** - Set up if/then logic for smart decision making
-5. **Scheduling** - Configure when and how often to run
+1. **Action Field** - Describe what you want to do in natural language
+2. **Variables Panel** - Define reusable values and sensitive data
+3. **Conditions** - Set up if/then logic for smart decision making
+4. **Scheduling** - Configure when and how often to run
 
 ### Action Types
 
-- **Navigate:** Go to specific URLs or pages
-- **Click:** Interact with buttons, links, and elements
-- **Type:** Enter text into forms and input fields
+- **GOTO:** Go to specific URLs or pages
+- **ACT:** Interact with buttons, links and enter text into input fields
 - **Extract:** Collect data from pages
 - **Wait:** Pause for page loading or specific conditions
-- **Condition:** Add logic for different scenarios
+- **IF:** Add logic for different scenarios
 
 ## 📊 Live View & Monitoring
 
@@ -162,14 +154,6 @@ Set your agents to run:
 - **Monthly:** On specific dates
 - **Custom:** Complex schedules with cron expressions
 
-### Smart Triggers
-
-Beyond time-based scheduling:
-- **Data Changes:** Run when website content updates
-- **Email Triggers:** Start agents from email commands
-- **Webhook Integration:** Connect with other services
-- **Manual Execution:** Run on-demand when needed
-
 ## 🌐 Community & Marketplace
 
 ### Discover Pre-Built Agents
@@ -188,30 +172,14 @@ Contribute to the community:
 - Earn recognition and feedback
 - Build your automation portfolio
 
-## 💡 Advanced Tips
+## 💡 Advanced Tip
 
-### 1. Handle Dynamic Content
+### Handle Dynamic Content
 
 For pages with changing layouts:
 - Use descriptive selectors: "the blue 'Add to Cart' button"
 - Add wait conditions: "wait for the price to load"
 - Use fallback actions: "if the first button isn't found, try the second"
-
-### 2. Error Handling
-
-Build resilient agents:
-- Add retry logic for failed actions
-- Set up alternative paths for different scenarios
-- Use condition checks before critical actions
-- Include notification for manual intervention
-
-### 3. Data Validation
-
-Ensure data quality:
-- Verify extracted information makes sense
-- Set up format checks for collected data
-- Add confirmation steps for important actions
-- Include data backup and recovery options
 
 ## 🚨 Important Notes
 
