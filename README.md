@@ -2,13 +2,12 @@
 
 AI Browser is a powerful platform that allows anyone to build and deploy AI browser agents for web automation by writing simple prompts. Anyone with prompting experience can create AI browser agents that can automate any website without writing a single line of code.
 
-## ✨ Features
+## ✨ Features of AI Browser
 
-- 🤖 **Prompt-Based Creation** - Build AI browser agents using simple natural language instructions
+- 🤖 **Prompt-Based Creation** - Build AI browser agents using simple prompts
 - 👀 **Live View Agent** - Watch your agents work in real-time with live browser preview
 - ⏰ **Smart Scheduling** - Set your browser agents to run automatically at specified times
 - 🌐 **Community Hub** - Access pre-built agents for popular websites and services
-- 🎯 **Drag & Drop Interface** - No coding required - build complex workflows visually
 - 🔧 **Playwright Powered** - Built on robust browser automation technology
 
 ## 🚀 Quick Start
