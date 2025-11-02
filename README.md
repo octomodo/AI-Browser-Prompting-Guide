@@ -1,6 +1,6 @@
 # Prompting Guide for AI Browser
 
-AI Browser allows anyone to build and deploy AI browser agents for web automation by writing simple prompts. Anyone with prompting experience can create AI browser agents that can automate any website without writing a single line of code.
+[AI Browser](https://aibrowser.surf) allows anyone to build and deploy AI browser agents for web automation by writing simple prompts. Anyone with prompting experience can create AI browser agents that can automate any website without writing a single line of code.
 
 ## ✨ Features of AI Browser
 
@@ -202,4 +202,4 @@ For pages with changing layouts:
 
 **Made with 🤖 for everyone who wants to automate the web**
 
-[🌐 Visit AI Browser](https://aibrowser.surf)
+[Visit AI Browser](https://aibrowser.surf)
