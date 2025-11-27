@@ -53,6 +53,15 @@ Set your agent to run daily, weekly, or at custom intervals to automate repetiti
 - **Action:** Create LinkedIn post
 - **Content:** Auto-generate from blog data
 
+**Prompt:** "Check my website uptime every 30 minutes"
+
+**Agent Configuration:**
+- **Action:** Navigate to user's website
+- **Extract:** Webpage's title
+- **Condition:** If title == null
+- **Notify:** Send email alert
+- **Schedule:** Every 30 mins
+
 ### Data Collection
 
 **Prompt:** "Collect job listings for 'Software Engineer' positions from Indeed daily and save them to Google Sheets"
@@ -63,6 +72,19 @@ Set your agent to run daily, weekly, or at custom intervals to automate repetiti
 - **Extract:** Job title, company, location, salary
 - **Export:** Google Sheets integration
 - **Schedule:** Daily at 6 AM
+
+**Prompt:** "Visit these 10 URLs and extract all article titles"
+
+**Agent Configuration:**
+- **Action:** Navigate to 1st URL
+- **Extract:** Article title
+
+**Prompt:** "Scrape the top 20 GitHub trending repositories today"
+
+**Agent Configuration:**
+- **Action:** Navigate to github.com/trending
+- **Extract:** Repo name, stars, author, description
+- **Export:** JSON file
 
 ## 🎯 Building Browser Agents - Best Practices
 
