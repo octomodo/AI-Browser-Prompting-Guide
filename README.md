@@ -53,6 +53,8 @@ Set your agent to run daily, weekly, or at custom intervals to automate repetiti
 - **Action:** Create LinkedIn post
 - **Content:** Auto-generate from blog data
 
+### Website Uptime Monitoring
+
 **Prompt:** "Check my website uptime every 30 minutes"
 
 **Agent Configuration:**
@@ -78,6 +80,8 @@ Set your agent to run daily, weekly, or at custom intervals to automate repetiti
 **Agent Configuration:**
 - **Action:** Navigate to 1st URL
 - **Extract:** Article title
+
+### Web Scraping
 
 **Prompt:** "Scrape the top 20 GitHub trending repositories today"
 
